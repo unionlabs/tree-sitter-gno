@@ -1,5 +1,5 @@
 /**
- * @file Go grammar for tree-sitter
+ * @file Gno grammar for tree-sitter
  * @author Max Brunsfeld <maxbrunsfeld@gmail.com>
  * @author Amaan Qureshi <amaanq12@gmail.com>
  * @license MIT
@@ -65,7 +65,7 @@ const floatLiteral = choice(decimalFloatLiteral, hexFloatLiteral);
 const imaginaryLiteral = seq(choice(decimalDigits, intLiteral, floatLiteral), 'i');
 
 export default grammar({
-  name: 'go',
+  name: 'gno',
 
   extras: $ => [
     $.comment,
