@@ -95,6 +95,8 @@
   "switch"
   "type"
   "var"
+  "realm"
+  "cross"
 ] @keyword
 
 ; Literals

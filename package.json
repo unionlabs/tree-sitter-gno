@@ -1,8 +1,8 @@
 {
-  "name": "tree-sitter-go",
+  "name": "tree-sitter-gno",
   "version": "0.25.0",
-  "description": "Go grammar for tree-sitter",
-  "repository": "https://github.com/tree-sitter/tree-sitter-go",
+  "description": "Gno grammar for tree-sitter",
+  "repository": "https://github.com/tree-sitter/tree-sitter-gno",
   "license": "MIT",
   "author": {
     "name": "Max Brunsfeld",

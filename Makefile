@@ -2,8 +2,8 @@ ifeq ($(OS),Windows_NT)
 $(error Windows is not supported)
 endif
 
-LANGUAGE_NAME := tree-sitter-go
-HOMEPAGE_URL := https://github.com/tree-sitter/tree-sitter-go
+LANGUAGE_NAME := tree-sitter-gno
+HOMEPAGE_URL := https://github.com/tree-sitter/tree-sitter-gno
 VERSION := 0.25.0
 
 # repository
